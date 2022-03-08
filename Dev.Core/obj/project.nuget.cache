@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GcOeQn3gulaUuFijFCDn96aC0zMlPQoIARkJketgM3dN4j9KORFVvmaNqVaRrYrDOgyFtgqVtBRN3+YWxGsjtw==",
+  "success": true,
+  "projectFilePath": "D:\\文件\\DevProject\\Dev.Core\\Dev.CoreWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
