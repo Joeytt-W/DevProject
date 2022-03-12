@@ -1,0 +1,12 @@
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\bin\Debug\net5.0\Dev.Repositories.deps.json
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\bin\Debug\net5.0\Dev.Repositories.dll
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\bin\Debug\net5.0\ref\Dev.Repositories.dll
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\bin\Debug\net5.0\Dev.Repositories.pdb
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\obj\Debug\net5.0\Dev.Repositories.csproj.AssemblyReference.cache
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\obj\Debug\net5.0\Dev.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\obj\Debug\net5.0\Dev.Repositories.AssemblyInfoInputs.cache
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\obj\Debug\net5.0\Dev.Repositories.AssemblyInfo.cs
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\obj\Debug\net5.0\Dev.Repositories.csproj.CoreCompileInputs.cache
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\obj\Debug\net5.0\Dev.Repositories.dll
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\obj\Debug\net5.0\ref\Dev.Repositories.dll
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Repositories\obj\Debug\net5.0\Dev.Repositories.pdb

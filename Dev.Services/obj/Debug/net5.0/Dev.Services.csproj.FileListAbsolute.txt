@@ -1,0 +1,12 @@
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\bin\Debug\net5.0\Dev.Services.deps.json
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\bin\Debug\net5.0\Dev.Services.dll
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\bin\Debug\net5.0\ref\Dev.Services.dll
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\bin\Debug\net5.0\Dev.Services.pdb
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\obj\Debug\net5.0\Dev.Services.csproj.AssemblyReference.cache
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\obj\Debug\net5.0\Dev.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\obj\Debug\net5.0\Dev.Services.AssemblyInfoInputs.cache
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\obj\Debug\net5.0\Dev.Services.AssemblyInfo.cs
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\obj\Debug\net5.0\Dev.Services.csproj.CoreCompileInputs.cache
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\obj\Debug\net5.0\Dev.Services.dll
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\obj\Debug\net5.0\ref\Dev.Services.dll
+D:\Work\WorkSpaces\Mine\DevProject\Dev.Services\obj\Debug\net5.0\Dev.Services.pdb

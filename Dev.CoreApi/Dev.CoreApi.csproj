@@ -6,7 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="C:\Users\78472\.nuget\packages\nlog.config\4.7.14\contentFiles\any\any\NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="C:\Users\78472\.nuget\packages\nlog.config\4.7.14\contentFiles\any\any\NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="NLog.Config" Version="4.7.14" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.7.4" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
   </ItemGroup>
 
 </Project>
