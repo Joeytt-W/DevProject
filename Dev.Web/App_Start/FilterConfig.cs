@@ -1,6 +1,6 @@
-﻿using System.Web;
+﻿using Dev.Web.Filters;
+using System.Web;
 using System.Web.Mvc;
-using Dev.Web.Filters;
 
 namespace Dev.Web
 {
@@ -8,7 +8,7 @@ namespace Dev.Web
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new ExceptionHandleAttribute());
+            filters.Add(new CustomHandleErrorAttribute());
         }
     }
 }

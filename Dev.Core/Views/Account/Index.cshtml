@@ -1,5 +1,12 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    Layout = null;
+}
+@model IEnumerable<Dev.Entity.DbEntities.DbStu>
+<h1>Index</h1>
+
+@foreach (var item in Model)
+{
+    <div>
+        <span>@item.Id</span>---<span>@item.DbName</span>
+    </div>
 }

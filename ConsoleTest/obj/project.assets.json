@@ -49,8 +49,7 @@
   },
   "packageFolders": {
     "C:\\Users\\78472\\.nuget\\packages\\": {},
-    "D:\\Work\\Visual Studio 2019\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "D:\\Work\\Visual Studio 2019\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -62,14 +61,12 @@
       "outputPath": "D:\\Work\\WorkSpaces\\Mine\\DevProject\\ConsoleTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Work\\Visual Studio 2019\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Work\\Visual Studio 2019\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\78472\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -114,7 +111,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

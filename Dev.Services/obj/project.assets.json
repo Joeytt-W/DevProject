@@ -1,16 +1,34 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Dev.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Dev.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dev.Entity.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Dev.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Dev.Entity/Dev.Entity.csproj",
+      "msbuildProject": "../Dev.Entity/Dev.Entity.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Dev.Entity >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\78472\\.nuget\\packages\\": {},
-    "D:\\Work\\Visual Studio 2019\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "D:\\Work\\Visual Studio 2019\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -22,14 +40,12 @@
       "outputPath": "D:\\Work\\WorkSpaces\\Mine\\DevProject\\Dev.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Work\\Visual Studio 2019\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Work\\Visual Studio 2019\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\78472\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -41,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Work\\WorkSpaces\\Mine\\DevProject\\Dev.Entity\\Dev.Entity.csproj": {
+              "projectPath": "D:\\Work\\WorkSpaces\\Mine\\DevProject\\Dev.Entity\\Dev.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -68,7 +88,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

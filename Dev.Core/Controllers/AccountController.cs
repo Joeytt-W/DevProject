@@ -1,22 +1,28 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Dev.Entity.ViewModel;
+using Dev.Services.IServices;
+using Dev.Services.Services;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Dev.CoreWeb.Controllers
+namespace Dev.CoreApi.Controllers
 {
     public class AccountController:Controller
     {
-        public IActionResult Login()
+        private readonly ITestService _test;
+
+        public AccountController(ITestService test)
         {
-            return View();
+            this._test = test;
         }
 
-        [HttpPost]
-        public ActionResult Login(string loginAccount, string loginPassword)
+        [HttpGet]
+        public async Task<IActionResult> Index()
         {
-            return RedirectToAction(nameof(Index), "Home");
+            var stus = await _test.GetTestStudentInfo();
+            return View(stus);
         }
     }
 }

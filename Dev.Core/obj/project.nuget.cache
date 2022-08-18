@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ti56RzI7i9D07ubYekLvASrZPhbFBIHx2qdJ/17vSxhJgAtiPKe1WCTWo7I2cqbzd7FGiKB1TH6/tdYSsRKdVw==",
+  "dgSpecHash": "UaA3/Q+JzR127BpiybmcXCT+iFpKJSZnXQ5wXR0TyacuQhmDhvZAQmu7ayjqJYUNAvQGmIMPUInvBjWPwgDa0w==",
   "success": true,
   "projectFilePath": "D:\\Work\\WorkSpaces\\Mine\\DevProject\\Dev.Core\\Dev.CoreWeb.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\78472\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\78472\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
   ],
   "logs": []

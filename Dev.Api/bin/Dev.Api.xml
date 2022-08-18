@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dev.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Dev.Api.Controllers.AccountController.Get">
+            <summary>
+            GetWeatherForecast
+            </summary>
+            <returns>WeatherForecasts</returns>
+        </member>
+    </members>
+</doc>

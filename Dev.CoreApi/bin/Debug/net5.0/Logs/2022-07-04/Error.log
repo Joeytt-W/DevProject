@@ -1,0 +1,13 @@
+ 发生时间：2022-07-04 15:12:12.4895
+ 日志级别：ERROR
+ 操作账号：
+ 操作者IP：
+ IP归属地：
+ 浏 览 器：
+ 操作模块：
+ 提示信息：Error mapping types.
+
+Mapping types:
+List`1 -> IEnumerable`1
+System.Collections.Generic.List`1[[Dev.Entity.DbEntities.DbStu, Dev.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.IEnumerable`1[[Dev.Entity.ViewModel.Student, Dev.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+

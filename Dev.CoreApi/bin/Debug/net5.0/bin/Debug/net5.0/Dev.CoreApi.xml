@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dev.CoreApi</name>
+    </assembly>
+    <members>
+        <member name="M:Dev.CoreApi.Controllers.AccountController.RequestToken(Dev.Entity.ViewModel.TokenRequest)">
+            <summary>
+            登录
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dev.CoreApi.Controllers.WeatherForecastController.Get">
+            <summary>
+            GetWeatherForecast
+            </summary>
+            <returns>WeatherForecasts</returns>
+        </member>
+        <member name="M:Dev.CoreApi.Controllers.WeatherForecastController.GetTestStudentInfo">
+            <summary>
+            获取所有学生信息
+            </summary>
+            <returns>Students</returns>
+        </member>
+        <member name="M:Dev.CoreApi.Controllers.WeatherForecastController.GetSingleStudent(Dev.Entity.ViewModel.Student)">
+            <summary>
+            GetSingleStudent
+            </summary>
+            <param name="student">输入要查询的学生信息</param>
+            <returns></returns>
+        </member>
+        <member name="F:Dev.CoreApi.CustomerAuthenticationHandler.CustomerSchemeName">
+            <summary>
+            自定义认证Scheme名称
+            </summary>
+        </member>
+        <member name="M:Dev.CoreApi.CustomerAuthenticationHandler.AuthenticateAsync">
+            <summary>
+            认证逻辑：认证校验主要逻辑
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Dev.CoreApi.CustomerAuthenticationHandler.ChallengeAsync(Microsoft.AspNetCore.Authentication.AuthenticationProperties)">
+            <summary>
+            未登录时的处理
+            </summary>
+            <param name="properties"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Dev.CoreApi.CustomerAuthenticationHandler.ForbidAsync(Microsoft.AspNetCore.Authentication.AuthenticationProperties)">
+            <summary>
+            权限不足时处理
+            </summary>
+            <param name="properties"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Dev.CoreApi.CustomerAuthenticationHandler.InitializeAsync(Microsoft.AspNetCore.Authentication.AuthenticationScheme,Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            初始化认证
+            </summary>
+            <param name="scheme"></param>
+            <param name="context"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Dev.CoreApi.MiddleWare.MiddlewareExtensions.UseRefreshTokenExpire(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            使用自定义的鉴权中间件
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Dev.CoreApi.MiddleWare.RefreshTokenExpireMiddleWare">
+            <summary>
+            token令牌过期自动刷新
+            </summary>
+        </member>
+    </members>
+</doc>

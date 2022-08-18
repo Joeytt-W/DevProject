@@ -1,0 +1,12 @@
+D:\文件\我的\DevProject\Dev.Entity\bin\Debug\net5.0\Dev.Entity.deps.json
+D:\文件\我的\DevProject\Dev.Entity\bin\Debug\net5.0\Dev.Entity.dll
+D:\文件\我的\DevProject\Dev.Entity\bin\Debug\net5.0\Dev.Entity.pdb
+D:\文件\我的\DevProject\Dev.Entity\obj\Debug\net5.0\Dev.Entity.csproj.AssemblyReference.cache
+D:\文件\我的\DevProject\Dev.Entity\obj\Debug\net5.0\Dev.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\文件\我的\DevProject\Dev.Entity\obj\Debug\net5.0\Dev.Entity.AssemblyInfoInputs.cache
+D:\文件\我的\DevProject\Dev.Entity\obj\Debug\net5.0\Dev.Entity.AssemblyInfo.cs
+D:\文件\我的\DevProject\Dev.Entity\obj\Debug\net5.0\Dev.Entity.csproj.CoreCompileInputs.cache
+D:\文件\我的\DevProject\Dev.Entity\obj\Debug\net5.0\Dev.Entity.dll
+D:\文件\我的\DevProject\Dev.Entity\obj\Debug\net5.0\refint\Dev.Entity.dll
+D:\文件\我的\DevProject\Dev.Entity\obj\Debug\net5.0\Dev.Entity.pdb
+D:\文件\我的\DevProject\Dev.Entity\obj\Debug\net5.0\ref\Dev.Entity.dll

@@ -1,3 +1,4 @@
+using Dev.Web.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,15 @@ namespace Dev.Web
     {
         protected void Application_Start()
         {
+
             AreaRegistration.RegisterAllAreas();
-            //AutoFacConfig.RegisterServices();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            AutoFacConfig.RegisterServices();
+
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            DevWebLogUtil.RegisterConfig();
+            DevWebLogUtil.Info("Application_Start");
         }
     }
 }

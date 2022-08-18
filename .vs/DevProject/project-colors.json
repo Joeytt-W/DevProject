@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cd5907fc-e2a8-4ddb-bea5-0bac926cb5bd": {
+      "ProjectGuid": "cd5907fc-e2a8-4ddb-bea5-0bac926cb5bd",
+      "DisplayName": "Dev.Web",
+      "ColorIndex": 0
+    },
+    "1fee82cd-7355-4af0-8e09-203b03c9d686": {
+      "ProjectGuid": "1fee82cd-7355-4af0-8e09-203b03c9d686",
+      "DisplayName": "Dev.Repositories",
+      "ColorIndex": 1
+    },
+    "87c52269-097e-4662-96f5-8640346d9ea4": {
+      "ProjectGuid": "87c52269-097e-4662-96f5-8640346d9ea4",
+      "DisplayName": "Dev.Services",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "26c5c149-637e-459f-b486-58ddc1ba0214": {
+      "ProjectGuid": "26c5c149-637e-459f-b486-58ddc1ba0214",
+      "DisplayName": "Dev.CoreApi",
+      "ColorIndex": 3
+    },
+    "73751604-aa1d-4e02-a21f-632785e1005d": {
+      "ProjectGuid": "73751604-aa1d-4e02-a21f-632785e1005d",
+      "DisplayName": "Dev.CoreWeb",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
