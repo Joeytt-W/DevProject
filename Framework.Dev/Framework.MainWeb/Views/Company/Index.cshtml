@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@model IEnumerable<Framework.MainEntity.Dto.CompanyQueryDto>
+
+<h2>Index</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(c => c.Name)</th>
+            <th>@Html.DisplayNameFor(c => c.Industry)</th>
+            <th>@Html.DisplayNameFor(c => c.Product)</th>
+            <th>@Html.DisplayNameFor(c => c.Country)</th>
+            <th>@Html.DisplayNameFor(c => c.Introduction)</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(c => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(c => item.Industry)
+                </td>
+                <td>
+                    @Html.DisplayFor(c => item.Product)
+                </td>
+                <td>
+                    @Html.DisplayFor(c => item.Country)
+                </td>
+                <td>
+                    @Html.DisplayFor(c => item.Introduction)
+                </td>
+                <td>
+                    @Html.ActionLink("编辑", "Update", new { id = item.Id }, new { @class = "btn btn-primary btn-msm" })
+                    @Html.ActionLink("删除", "Delete", new {id = item.Id }, new {@class="btn btn-danger btn-msm"})
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="row">
+    <div class="col-md-2 offset-md-10">
+        @Html.ActionLink("添加", "Add", new { },new { @class = "btn btn-primary" })
+    </div>
+</div>
+

@@ -1,0 +1,45 @@
+日志时间：2022-09-14 12:40:31.1510
+日志级别：ERROR
+ 操作账号：DESKTOP-FFG55EG
+ 操作者IP：::1
+ IP归属地：::1
+ 浏 览 器：Framework.MainWeb
+ 操作模块：Login
+ 提示信息：C:\Users\Administrator\Desktop\Framework.Dev\Framework.MainWeb\Views\Auth\Login.cshtml(17): error CS1963: An expression tree may not contain a dynamic operation
+
+日志时间：2022-09-14 12:43:51.6548
+日志级别：ERROR
+ 操作账号：DESKTOP-FFG55EG
+ 操作者IP：::1
+ IP归属地：::1
+ 浏 览 器：Framework.MainWeb
+ 操作模块：Index
+ 提示信息：无法在发送 HTTP 标头之后进行重定向。
+
+日志时间：2022-09-14 12:44:41.3899
+日志级别：ERROR
+ 操作账号：DESKTOP-FFG55EG
+ 操作者IP：::1
+ IP归属地：::1
+ 浏 览 器：Framework.MainWeb
+ 操作模块：Login
+ 提示信息：C:\Users\Administrator\Desktop\Framework.Dev\Framework.MainWeb\Views\Auth\Login.cshtml(17): error CS1963: An expression tree may not contain a dynamic operation
+
+日志时间：2022-09-14 12:50:31.1409
+日志级别：ERROR
+ 操作账号：DESKTOP-FFG55EG
+ 操作者IP：::1
+ IP归属地：::1
+ 浏 览 器：Framework.MainWeb
+ 操作模块：Index
+ 提示信息：无法在发送 HTTP 标头之后进行重定向。
+
+日志时间：2022-09-14 12:50:39.4129
+日志级别：ERROR
+ 操作账号：DESKTOP-FFG55EG
+ 操作者IP：::1
+ IP归属地：::1
+ 浏 览 器：Framework.MainWeb
+ 操作模块：Login
+ 提示信息：C:\Users\Administrator\Desktop\Framework.Dev\Framework.MainWeb\Views\Auth\Login.cshtml(17): error CS1963: An expression tree may not contain a dynamic operation
+

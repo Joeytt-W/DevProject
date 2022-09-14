@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Framework.MainAPI</name>
+    </assembly>
+    <members>
+        <member name="P:Framework.MainAPI.AutoFacConfig.Container">
+            <summary>
+            IOC组件容器。
+            </summary>
+        </member>
+        <member name="M:Framework.MainAPI.AutoFacConfig.Resolve``1">
+            <summary>
+            获取组件。
+            </summary>
+            <typeparam name="T">组件类型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Framework.MainAPI.AutoFacConfig.RegisterServices">
+            <summary>
+            注册服务。
+            </summary>
+        </member>
+    </members>
+</doc>

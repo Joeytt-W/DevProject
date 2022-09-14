@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Add";
+}
+@model Framework.MainEntity.Dto.CompanyAddDto
+
+<h2>Add a Company</h2>
+
+@using (Html.BeginForm("Add", "Company",FormMethod.Post, new { @class = "form" }))
+{
+    <div class="col-md-12">
+        @Html.ValidationSummary()
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Name)
+        @Html.TextBoxFor(c => c.Name, new { @class = "form-control required"})
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Country)
+        @Html.TextBoxFor(c => c.Country, new { @class = "form-control required" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Industry)
+        @Html.TextBoxFor(c => c.Industry, new { @class = "form-control required" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Product)
+        @Html.TextBoxFor(c => c.Product, new { @class = "form-control required" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Introduction)
+        @Html.TextAreaFor(c => c.Introduction, new { @class = "form-control required", @placeholder = "说点什么..." })
+    </div>
+
+    <div class="col-md-12" style="margin-top:10px;">
+        <input type="submit" class="btn btn-primary pull-right" value="保存" />
+    </div>
+}
+
